@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Sensible Reset Styles */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(42, 42, 42);
+  display: flexbox;
+}
+/* body {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+} */
+* {
+  box-sizing: border-box;
+  /* background-color: rgb(42, 42, 42); */
+}
+
+/* Global Styles */
+body {
+  /* background-color: #f5f5f5; */
+  /* color: #333; */
+  color: #eee;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-family: fantasy;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: orange;
+}
+
+a:hover {
+  color: rgb(255, 190, 80);
+}
+
+/* Layout Styles */
+.codeblock {
+  border-color: #888;
+  border: 1px;
+  background-color: #111;
+  color: #eee;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+input {
+  background-color: #444;
+  color: #abc;
+  border-radius: 5px;
+  height: 2.5em;
+  font-size: 16;
+  padding-left: 1ch;
+  padding-right: 1ch;
+}
+
+img {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.img-small {
+  border-radius: 2rem;
+  max-height: 100px;
+  max-width: 50%;
+}
+
+/* buttons */
+.button,
+.button-success,
+.button-disabled,
+.button-warning,
+.button-error {
+  background: #444;
+  color: lightcyan;
+  border-radius: 4px;
+  margin: 1ch;
+  padding: 0.5ch 1ch 0.5ch 1ch;
+}
+
+.button:hover {
+  border-color: white;
+}
+
+.button-success {
+  color: green;
+}
+.button-success:hover {
+  border-color: lightgreen;
+}
+
+.button-disabled {
+  color: gray;
+  border-color: gray;
+  border-width: 1px;
+  cursor: not-allowed;
+}
+
+.button-warning {
+  color: orange;
+}
+.button-warning:hover {
+  border-color: rgb(255, 188, 64);
+}
+
+.button-error {
+  color: red;
+}
+.button-error:hover {
+  border-color: rgb(255, 104, 104);
+}
