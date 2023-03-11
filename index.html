@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Semantic Dating Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Austin Simpson" />
+    <meta name="description" content="Semantic Dating Page" />
+    <meta property="og:title" content="Semantic Dating Page" />
+    <meta property="og:description" content="Page for challenge assignment" />
+    <meta property="og:image" content="/some-image.png" />
+    <meta property="og:url" content="/this-page.html" />
+    <meta property="og:site_name" content="Your Site Name" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content="image description" />
     <link href="styles.css" rel="stylesheet" />
-
-    <title>Static Template</title>
   </head>
+
   <body>
-    <h1>
-      This is an example of h1.
-    </h1>
-    <h2>
-      This is an example of h2.
-    </h2>
-    <h3>
-      This is an example of h3.
-    </h3>
-    <h4>
-      This is an example of h4.
-    </h4>
-    <h5>
-      This is an example of h5.
-    </h5>
-    <h6>
-      This is an example of h6.
-    </h6>
+    <h1>Hello, I'm <em>Austin Simpson</em></h1>
 
-    <p>This is an example of a paragraph</p>
-
-    <a href="#">Example of a link</a>
-
-    <div class="codeblock">print("hello world")</div>
-
-    Email input example: <input placeholder="example@site.com"></input>
-    <br>
-    <br>
-    <button class="button">Submit</button>
-    <div class="spacing"></div>
-    <button class="button-success">Success</button>
-    <button class="button-disabled">Disabled</button>
-    <button class="button-warning">Warning</button>
-    <button class="button-error">Error</button>
-
-    <div class="spacing"></div>
-    <img src="https://placekitten.com/420/280" alt="Cat">
-    <div class="spacing"></div>
-    <img class="img-small" src="https://placekitten.com/420/280" alt="small cat">
+    <!-- images -->
+    <img class="img-small" src="images/headshot.JPG" alt="headshot" />
     
+    <h4>Personal links:</h4>
+    <ul>
+      <li><a href="https://github.com/Austin-Simpson">My github</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/austintsimpson4/">My LinkedIn</a>
+      </li>
+    </ul>
+
+    <h2>Projects</h2>
+    <br />
+    <h3>
+      <a
+        href="https://drive.google.com/drive/folders/1zYiY2InUaqudllgoRT1l8qjASpaPijTl?usp=sharing"
+        >Music Generation Project</a
+      >
+      - December 2022
+    </h3>
+    <p>
+      Implemented and trained a music generation model using long short-term
+      memory (LSTM) networks, gaining experience in the application of deep
+      learning techniques to sequential data.
+    </p>
+    <br />
+    <h3>
+      <a href="https://github.com/Austin-Simpson/chapman_sachacks_22">
+        Easy Outing</a
+      >
+      - October 2022
+    </h3>
+    <p>
+      Designed and implemented a bot for Discord using Python and the Discord
+      and Yelp APIs, allowing users to create polls and receive personalized
+      restaurant recommendations based on the poll results.
+    </p>
+    <br />
+    <h3>
+      <a href="https://github.com/awiswasi/WhoIsYourDatabase">
+        Stadium Tour Project</a
+      >
+      - May 2021
+    </h3>
+    <p>
+      Utilized AGILE practices to set and meet important deadlines. Developed a
+      program using Qt Creator and C++ to design a GUI. Users select colleges to
+      visit, and the program plans the most efficient route.
+    </p>
+    <br />
   </body>
 </html>

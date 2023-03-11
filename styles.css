@@ -33,34 +33,25 @@ body {
 h1 {
   font-size: 2rem;
   font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin: 0;
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin: 0;
 }
 
 h3 {
   font-size: 1.25rem;
   font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin: 0;
 }
 
 h4 {
   font-size: 1rem;
   font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-h5 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin: 0;
 }
 
 h6 {
@@ -72,6 +63,7 @@ h6 {
 
 p {
   margin: 0;
+  width: 55ch;
 }
 
 a {
@@ -110,7 +102,7 @@ img {
 
 .img-small {
   border-radius: 2rem;
-  max-height: 100px;
+  max-height: 200px;
   max-width: 50%;
 }
 
@@ -160,5 +152,9 @@ img {
 }
 
 .spacing {
-    padding: 1rem;
+  padding: 1rem;
+}
+
+em {
+  font-weight: 600;
 }
