@@ -63,7 +63,8 @@ h6 {
 
 p {
   margin: 0;
-  width: 55ch;
+  max-width: 55ch;
+  width: 100%;
 }
 
 a {
@@ -157,4 +158,43 @@ img {
 
 em {
   font-weight: 600;
+}
+
+.box {
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+  margin-bottom: 0;
+}
+
+/* box with content a little higher thanvertically centered */
+.box-centered {
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+}
+
+.sidebyside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: left;
+  max-width: 55ch;
+  flex-wrap: wrap;
+}
+
+ul {
+  /* slight indent */
+  padding-left: 1rem;
+  list-style-type: none;
+
 }
